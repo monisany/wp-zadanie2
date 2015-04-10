@@ -38,3 +38,8 @@ stratia. Navigácia je proces, v ktorom sa skrýva viac ako len dosiahnutie cie�
 * Identifikácia objektov v priestore. Viac než cesta samotná zaujíma človeka
   orientácia v priestore na danom mieste, konkrétne rozpoznávanie objektov okolo.
   Objekty môžu predstavovať napríklad okolité budovy.
+
+**SOCIÁLNA NAVIGÁCIA**
+
+Tento pojem vytvorili Dourish a Chalmers v roku 1994, ktorý sa vzťahuje na situácie,
+v ktorých je človek v priestore riadený činnosťami iných v tomto priestore.
