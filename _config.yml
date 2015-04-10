@@ -1,0 +1,17 @@
+# Site settings
+title: Your awesome title
+email: monika.sanyova@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Stránka o mojej bakalárskej práci vytvorená použitím generátora statických stránok Jekyll.
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+my_name: Monika
+my_email: monika.sanyova@gmail.com
+
+# Build settings
+markdown: kramdown
