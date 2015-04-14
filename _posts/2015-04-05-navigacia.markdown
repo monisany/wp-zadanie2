@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Čo je to navigácia"
+short-title: "Navigácia"
 date:   2015-04-10 16:05:00
-categories: ['hlavna', 'navigacia']
+categories: ['hlavna','navigacia']
 ---
 
 Jednou z najbežnejších činností človeka je potreba orientovať sa v priestore. Bez

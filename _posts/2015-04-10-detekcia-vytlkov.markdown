@@ -1,9 +1,14 @@
 ---
 layout: post
 title:  "Detekcia výtlkov"
+short-title: "Detekcia"
 date:   2015-04-10 16:05:00
 categories: ['hlavna','detekcia']
 ---
+
+{% for post in site.categories.detekcia %}
+    {{ post.title }}
+{% endfor %}
 
 Našou úlohou je implementácia novej funkcionality do navigácie, ktorá bude počas jazdy
 sledovať, či nastal stret automobilu s výtlkom. Pokiaľ áno, mal by sa tento výtlk zobraziť

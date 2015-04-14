@@ -1,82 +1,118 @@
-<header class="site-header">
-
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
+<header class="page-header">
+  <a href="{{ site.baseurl }}/"><h1>{{ site.title }}</h1></a>
+</header>
     <nav class="navbar navbar-default">
       <div class="container-fluid">
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <!-- domovska stranka, defaultne aktivna -->
-            <!--{% if page.url == "/index.html" %}-->
-              <!--<li class="active"><a href="/index.html">Domov</a></li>-->
-            <!--{% else %}-->
-              <!--<li><a href="/index.html">Domov</a></li>-->
-            <!--{% endif %}-->
+            {% if page.url == "/index.html" %}
+              <li class="active menu-item"><a href="{{ site.baseurl }}/">Domov</a></li>
+            {% else %}
+              <li class="menu-item"><a href="{{ site.baseurl }}/">Domov</a></li>
+            {% endif %}
 
 
 
 
             {% for post in site.posts %}
-              <!-- dat tu nieco ako for category in ['detekcia', 'navigacia'] -->
               {% if post.categories[0] == 'hlavna' %}
-                <!--{% for category in pole %}-->
                 {% if post.categories[1] == 'detekcia' %}
-                  <!--{% if page.url == post.url %}-->
-                    <!--&lt;!&ndash; ak som na konkretnej podstranke a je to dropdown&ndash;&gt;-->
-                    <!--<li class="active dropdown"><a href="{{ post.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ post.title }}<span class="caret"></span></a>-->
-                      <!--{% for post in site.posts %}-->
-                        <!--<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">-->
-                          <!--<li><a href="{{ post.url }}">{{ post.title }}</a></li>-->
-                        <!--</ul>-->
-                      <!--{% endfor %}-->
-                    <!--</li>-->
-                  <!--{% else %}-->
-                    <!--<li class="dropdown"><a href="{{ post.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ post.title }}<span class="caret"></span></a>-->
-                      <!--<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">-->
-                        <!--{% for post in site.posts %}-->
-                          <!--{% if post.categories[0] == 'detekcia' %}-->
-                            <!--<li><a href="{{ post.url }}">{{ post.title }}</a></li>-->
-                          <!--{% endif %}-->
-                        <!--{% endfor %}-->
-                      <!--</ul>-->
-                    <!--</li>-->
-                  <!--{% endif %}-->
-
-
-                {% else %}
-                  {% if page.url == post.url %}
-                  <!-- ak som na konkretnej podstranke a nie je to dropdown -->
-                    <li class="active"><a href="{{ post.url }}">{{ post.title }}</a></li>
+                  <!-- ci je URL rovna tej alebo tej alebo tej z rovnakej category -->
+                  {% assign flag = "false" %}
+                  {% for post in site.posts %}
+                    {% if (post.categories[0] == 'detekcia') or (post.categories[1] == 'detekcia') %}
+                      {% if page.url == post.url %}
+                        {% assign flag = "true" %}
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+                  {% if flag == "true" %}
+                    <li class="active dropdown menu-item"><a href="{{ post.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ post.short-title }}<span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                        {% for post in site.posts %}
+                          {% if (post.categories[0] == 'detekcia') or (post.categories[1] == 'detekcia') %}
+                            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                          {% endif %}
+                        {% endfor %}
+                      </ul>
+                    </li>
                   {% else %}
-                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    <li class="dropdown menu-item"><a href="{{ post.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ post.short-title }}<span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                        {% for post in site.posts %}
+                          {% if (post.categories[0] == 'detekcia') or (post.categories[1] == 'detekcia') %}
+                            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                          {% endif %}
+                        {% endfor %}
+                      </ul>
+                    </li>
+                  {% endif %}
+                {% endif %}
+
+
+
+                {% if post.categories[1] == 'navigacia' %}
+                  <!-- ci je URL rovna tej alebo tej alebo tej z rovnakej category -->
+                  {% assign flag = "false" %}
+                  {% for post in site.posts %}
+                    {% if (post.categories[0] == 'navigacia') or (post.categories[1] == 'navigacia') %}
+                      {% if page.url == post.url %}
+                        {% assign flag = "true" %}
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+                  {% if flag == "true" %}
+                    <li class="active dropdown menu-item"><a href="{{ post.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ post.short-title }}<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                          {% for post in site.posts %}
+                            {% if (post.categories[0] == 'navigacia') or (post.categories[1] == 'navigacia') %}
+                              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
+
+                    </li>
+                  {% else %}
+                    <li class="dropdown menu-item"><a href="{{ post.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ post.short-title }}<span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                        {% for post in site.posts %}
+                          {% if (post.categories[0] == 'navigacia') or (post.categories[1] == 'navigacia') %}
+                            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                          {% endif %}
+                        {% endfor %}
+                      </ul>
+                    </li>
+                  {% endif %}
+                {% endif %}
+
+
+                {% if (post.categories[1] != 'navigacia') %}
+                  {% if (post.categories[1] != 'detekcia') %}
+                    {% if page.url == post.url %}
+                      <li class="active menu-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    {% else %}
+                      <li class="menu-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    {% endif %}
                   {% endif %}
                 {% endif %}
               {% endif %}
             {% endfor %}
 
 
-
-
-
-
-
-
-            <!--{% for page in site.pages %}-->
-              <!--{% if page.title %}-->
-                <!--{% if page.url == "{{ page.permalink | prepend: site.baseurl }}" %}-->
-                  <!--<li class="active"><a href="{{ page.permalink }}">{{ page.title }}</a></li>-->
-                <!--{% else %}-->
-                  <!--<li><a href="{{ page.permalink | prepend: site.baseurl }}">{{ page.title }}</a></li>-->
-                <!--{% endif %}-->
-
-              <!--{% endif %}-->
-            <!--{% endfor %}-->
+            {% for p in site.pages %}
+              {% if p.title %}
+                {% if page.url == p.permalink %}
+                  <li class="active menu-item"><a href="{{ p.permalink }}">{{ p.title }}</a></li>
+                {% else %}
+                  <li class="menu-item"><a href="{{ p.permalink }}">{{ p.title }}</a></li>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
 
-</header>
+
