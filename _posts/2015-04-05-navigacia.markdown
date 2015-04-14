@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Navigácia"
+title:  "Čo je to navigácia"
 date:   2015-04-10 16:05:00
-categories: navigacia
+categories: ['hlavna', 'navigacia']
 ---
 
 Jednou z najbežnejších činností človeka je potreba orientovať sa v priestore. Bez
@@ -16,6 +16,7 @@ Hlavnou úlohou navigácie je pomocou ľuďom. Po prvé, ľudia neradi strácaj�
 vyhľadávaním si cesty alebo čímkoľvek iným. Po druhé, ľudia majú strach z toho, že sa
 stratia. Navigácia je proces, v ktorom sa skrýva viac ako len dosiahnutie cieľa cesty.
 
+{:.alert .alert-success}
 **Výhody navigácie:**
 
 * Môžeme kedykoľvek pozmeniť cieľ cesty, alebo môžeme na základe istých priorít
@@ -38,6 +39,8 @@ stratia. Navigácia je proces, v ktorom sa skrýva viac ako len dosiahnutie cie�
 * Identifikácia objektov v priestore. Viac než cesta samotná zaujíma človeka
   orientácia v priestore na danom mieste, konkrétne rozpoznávanie objektov okolo.
   Objekty môžu predstavovať napríklad okolité budovy.
+
+
 
 **SOCIÁLNA NAVIGÁCIA**
 

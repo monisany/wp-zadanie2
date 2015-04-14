@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Úvod"
+date:   2015-04-13 22:19:00
+categories: ['hlavna','']
+---
+
+Navigácia je pre väčšinu ľudí každodennou aktivitou. Cestná sieť sa stáva čoraz
+zložitejšou, preto je pomoc pri navigácií pre ľudí čoraz dôležitejšia.
+
+V priebehu storočí sa vyvinuli tri rôzne generácie navigácií. Prvou z nich bola navigácia,
+ktorá nás navigovala smerom na sever. Využívala známe zariadenie kompas, ktorý každý
+určite dobre pozná. So vznikom [GPS](http://www.gps.gov/systems/gps/) v roku 1960 nastala
+druhá generácia. V spojení s technológiou [GIS](http://www.cio.ca.gov/Government/Governance/gis.html) (Geospatial Information Systems) malo
+ľudstvo dostatočne vyspelé technológie pre vývin rôznych aplikácií, vrátane navigácie, ako
+ju poznáme dnes. V súčasnosti je vo vývoji tretia generácia, ktorej vo vývoji pomáhajú dva
+základne fakty – stále rastúci záujem o Web 2.0 3 technológie a hlavne fakt, že čoraz viac sa
+stretávame s mobilnými zariadeniami v bežnom živote človeka.
+
+V súčasnej generácií navigačných systémov už nie je najdôležitejšie, aby bola cesta do
+cieľa najkratšia. Každý človek je individuálny a má iné požiadavky. Niekedy chceme ísť
+po najkrajšej a najzaujímavejšej ceste. Inokedy vyhľadávame najviac informatívnu cestu.
+Kvôli týmto individuálnym požiadavkám vzniká sociálna navigácia, ktorá je novým,
+vylepšeným druhom navigácie.
+
+Ľudia sa chcú dostať z miesta na miesto čo najpohodlnejšie. Úlohou sociálnej navigácie je
+pomocou interakcie človeka s človekom zostrojiť čo najlepší systém, ktorý by navigoval
+používateľa presne podľa jeho požiadaviek.
+

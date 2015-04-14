@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Senzory v mobilnom zariadení"
+date:   2015-04-10 16:05:00
+categories: detekcia
+---
+
+Existujú tri základné druhy senzorov:
+
+* Pohybové
+
+* Senzory prostredia
+
+* Senzory polohy
+
+V tejto práci sa zaoberáme pohybovými senzormi a senzormi polohy, hlavne nás zaujímajú
+senzor akcelerácie (akcelerometer) a senzor orientácie.
+
+Každý senzor vysiela určitý typ dát. Tie sú prístupne vďaka implementovaným metódam
+na prácu so senzormi v Android sensor framework.
+
+**Súradnicový systém mobilného zariadenia**
+
+Pre správne využitie senzorov v zariadení je dôležité pochopiť ako funguje súradnicový
+systém. Zariadenie má tri osi (X,Y,Z) ako je znázornené na obrázku.
+
+<img src="/images/xyz.jpg" class="img-my" alt="Súradnicový systém">
+
