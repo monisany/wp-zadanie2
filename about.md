@@ -4,11 +4,10 @@ title: O autorke
 permalink: /o_autorke/
 ---
 
-Volám sa Monika Sanyová.
-
-Som študentkou 3.ročníka na Fakulte informatiky a informačných technológií na STU v Bratislave.
-
-<img src="/images/ja.jpg" class="foto img-my" alt="Moje foto">
+<div class="row" style="margin-bottom: 50px">
+  <div class="left"><img src="/images/ja.jpg" alt="Moje foto"></div>
+  <div class="right"><p>Volám sa Monika Sanyová. Som študentkou 3.ročníka na Fakulte informatiky a informačných technológií na STU v Bratislave.</p></div>
+</div>
 
 <form class="contact-form">
 	<div>

@@ -2,6 +2,8 @@
 layout: post
 title:  "Čo je to navigácia"
 short-title: "Navigácia"
+description: Jednou z najbežnejších činností človeka je potreba orientovať sa v priestore. Bez
+             schopnosti nájsť cestu by sme boli úplne stratení a teda neschopní robiť iné činnosti...
 date:   2015-04-10 16:05:00
 categories: ['hlavna','navigacia']
 ---
@@ -13,11 +15,11 @@ schopnosť však využívame každodenne (minimálne o nej premýšľame). Navig
 využívame napríklad aj v prípade, keď sa cestou do práce naša obvyklá trasa stane
 neprechodnou a musíme si zvoliť alternatívu.
 
-Hlavnou úlohou navigácie je pomocou ľuďom. Po prvé, ľudia neradi strácajú čas
+Hlavnou úlohou navigácie je pomôcť ľuďom. Po prvé, ľudia neradi strácajú čas
 vyhľadávaním si cesty alebo čímkoľvek iným. Po druhé, ľudia majú strach z toho, že sa
 stratia. Navigácia je proces, v ktorom sa skrýva viac ako len dosiahnutie cieľa cesty.
 
-{:.alert .alert-success}
+{:.alert .alert-info}
 **Výhody navigácie:**
 
 * Môžeme kedykoľvek pozmeniť cieľ cesty, alebo môžeme na základe istých priorít
@@ -29,6 +31,7 @@ stratia. Navigácia je proces, v ktorom sa skrýva viac ako len dosiahnutie cie�
 * Navigácia je aj poučná. Niekedy napríklad nechceme ísť po obyčajnej nám známej
   trase, ale skôr po zaujímavejšej.
 
+{:.alert .alert-info}
 **Typy navigácií:**
 
 * Navigácia, ktorej prioritou je nájdenie cesty do cieľa.
@@ -41,9 +44,4 @@ stratia. Navigácia je proces, v ktorom sa skrýva viac ako len dosiahnutie cie�
   orientácia v priestore na danom mieste, konkrétne rozpoznávanie objektov okolo.
   Objekty môžu predstavovať napríklad okolité budovy.
 
-
-
-**SOCIÁLNA NAVIGÁCIA**
-
-Tento pojem vytvorili Dourish a Chalmers v roku 1994, ktorý sa vzťahuje na situácie,
-v ktorých je človek v priestore riadený činnosťami iných v tomto priestore.
+Čo je to sociálna navigácia a ďalšie informácie o nej sa dozviete v časti [Sociálna navigácia]({{site.baseurl}}/navigacia/2015/04/14/socialna-navigacia.html).

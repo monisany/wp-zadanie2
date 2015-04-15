@@ -1,6 +1,9 @@
 ---
 layout: post
 title:  "Úvod"
+short-title: "Úvod"
+description: Navigácia je pre väčšinu ľudí každodennou aktivitou. Cestná sieť sa stáva čoraz
+             zložitejšou, preto je pomoc pri navigácií pre ľudí čoraz dôležitejšia...
 date:   2015-04-13 22:19:00
 categories: ['hlavna','']
 ---

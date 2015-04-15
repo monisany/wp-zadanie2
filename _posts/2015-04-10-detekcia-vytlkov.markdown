@@ -2,13 +2,11 @@
 layout: post
 title:  "Detekcia výtlkov"
 short-title: "Detekcia"
+description: Našou úlohou je implementácia novej funkcionality do navigácie, ktorá bude počas jazdy
+             sledovať, či nastal stret automobilu s výtlkom...
 date:   2015-04-10 16:05:00
 categories: ['hlavna','detekcia']
 ---
-
-{% for post in site.categories.detekcia %}
-    {{ post.title }}
-{% endfor %}
 
 Našou úlohou je implementácia novej funkcionality do navigácie, ktorá bude počas jazdy
 sledovať, či nastal stret automobilu s výtlkom. Pokiaľ áno, mal by sa tento výtlk zobraziť
@@ -19,7 +17,8 @@ sa tak nepriamo a nevedomky stávajú súčasťou kolaborujúcej skupiny, ktorá
 obyčajnú navigáciu o možnosť predchádzania zbytočným nárazom. Jazda je tak pre
 cestujúcich pohodlnejšia.
 
-**EXISTUJÚCE RIEŠENIE**
+{:.alert .alert-info}
+**Existujúce riešenia**
 
 V americkom meste Boston vznikla myšlienka, ako využiť technológie na zlepšenie
 pozemných komunikácií. Správa mesta ponúka občanom mobilnú aplikáciu s názvom

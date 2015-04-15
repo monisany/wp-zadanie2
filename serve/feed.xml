@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Detekcia výtlkov</title>
+    <description>Stránka o mojej bakalárskej práci vytvorená použitím generátora statických stránok Jekyll.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>2015-04-15 22:56:30 +0200</pubDate>
+    <lastBuildDate>2015-04-15 22:56:30 +0200</lastBuildDate>
+    <generator>Jekyll v</generator>
+    
+      <item>
+        <title>Sociálna navigácia</title>
+        <description>&lt;p&gt;Socialna navigacia&lt;/p&gt;
+</description>
+        <pubDate>2015-04-14 16:07:10 +0200</pubDate>
+        <link>http://yourdomain.com/navigacia/2015/04/14/socialna-navigacia.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/navigacia/2015/04/14/socialna-navigacia.html</guid>
+        
+        
+        <category>navigacia</category>
+        
+      </item>
+    
+      <item>
+        <title>Úvod</title>
+        <description>&lt;p&gt;Navigácia je pre väčšinu ľudí každodennou aktivitou. Cestná sieť sa stáva čoraz
+zložitejšou, preto je pomoc pri navigácií pre ľudí čoraz dôležitejšia.&lt;/p&gt;
+
+&lt;p&gt;V priebehu storočí sa vyvinuli tri rôzne generácie navigácií. Prvou z nich bola navigácia,
+ktorá nás navigovala smerom na sever. Využívala známe zariadenie kompas, ktorý každý
+určite dobre pozná. So vznikom &lt;a href=&quot;http://www.gps.gov/systems/gps/&quot;&gt;GPS&lt;/a&gt; v roku 1960 nastala
+druhá generácia. V spojení s technológiou &lt;a href=&quot;http://www.cio.ca.gov/Government/Governance/gis.html&quot;&gt;GIS&lt;/a&gt; (Geospatial Information Systems) malo
+ľudstvo dostatočne vyspelé technológie pre vývin rôznych aplikácií, vrátane navigácie, ako
+ju poznáme dnes. V súčasnosti je vo vývoji tretia generácia, ktorej vo vývoji pomáhajú dva
+základne fakty – stále rastúci záujem o Web 2.0 3 technológie a hlavne fakt, že čoraz viac sa
+stretávame s mobilnými zariadeniami v bežnom živote človeka.&lt;/p&gt;
+
+&lt;p&gt;V súčasnej generácií navigačných systémov už nie je najdôležitejšie, aby bola cesta do
+cieľa najkratšia. Každý človek je individuálny a má iné požiadavky. Niekedy chceme ísť
+po najkrajšej a najzaujímavejšej ceste. Inokedy vyhľadávame najviac informatívnu cestu.
+Kvôli týmto individuálnym požiadavkám vzniká sociálna navigácia, ktorá je novým,
+vylepšeným druhom navigácie.&lt;/p&gt;
+
+&lt;p&gt;Ľudia sa chcú dostať z miesta na miesto čo najpohodlnejšie. Úlohou sociálnej navigácie je
+pomocou interakcie človeka s človekom zostrojiť čo najlepší systém, ktorý by navigoval
+používateľa presne podľa jeho požiadaviek.&lt;/p&gt;
+
+</description>
+        <pubDate>2015-04-14 00:19:00 +0200</pubDate>
+        <link>http://yourdomain.com/hlavna/2015/04/14/uvod.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/hlavna/2015/04/14/uvod.html</guid>
+        
+        
+        <category>hlavna</category>
+        
+        <category></category>
+        
+      </item>
+    
+      <item>
+        <title>Senzory v mobilnom zariadení</title>
+        <description>&lt;p&gt;Existujú tri základné druhy senzorov:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pohybové&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Senzory prostredia&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Senzory polohy&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;V tejto práci sa zaoberáme pohybovými senzormi a senzormi polohy, hlavne nás zaujímajú
+senzor akcelerácie (akcelerometer) a senzor orientácie.&lt;/p&gt;
+
+&lt;p&gt;Každý senzor vysiela určitý typ dát. Tie sú prístupne vďaka implementovaným metódam
+na prácu so senzormi v Android sensor framework.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Súradnicový systém mobilného zariadenia&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Pre správne využitie senzorov v zariadení je dôležité pochopiť ako funguje súradnicový
+systém. Zariadenie má tri osi (X,Y,Z) ako je znázornené na obrázku.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/xyz.jpg&quot; class=&quot;img-my&quot; alt=&quot;Súradnicový systém&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>2015-04-10 18:05:00 +0200</pubDate>
+        <link>http://yourdomain.com/detekcia/2015/04/10/senzory.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/detekcia/2015/04/10/senzory.html</guid>
+        
+        
+        <category>detekcia</category>
+        
+      </item>
+    
+      <item>
+        <title>Čo je to navigácia</title>
+        <description>&lt;p&gt;Jednou z najbežnejších činností človeka je potreba orientovať sa v priestore. Bez
+schopnosti nájsť cestu by sme boli úplne stratení a teda neschopní robiť iné činnosti.
+Orientovať sa v priestore potrebujeme hlavne, ak sa nachádzame na novom mieste. Túto
+schopnosť však využívame každodenne (minimálne o nej premýšľame). Navigáciu
+využívame napríklad aj v prípade, keď sa cestou do práce naša obvyklá trasa stane
+neprechodnou a musíme si zvoliť alternatívu.&lt;/p&gt;
+
+&lt;p&gt;Hlavnou úlohou navigácie je pomôcť ľuďom. Po prvé, ľudia neradi strácajú čas
+vyhľadávaním si cesty alebo čímkoľvek iným. Po druhé, ľudia majú strach z toho, že sa
+stratia. Navigácia je proces, v ktorom sa skrýva viac ako len dosiahnutie cieľa cesty.&lt;/p&gt;
+
+&lt;p class=&quot;alert alert-success&quot;&gt;&lt;strong&gt;Výhody navigácie:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Môžeme kedykoľvek pozmeniť cieľ cesty, alebo môžeme na základe istých priorít
+uprednostňovať konkrétnu trasu k cieľu.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ďalšou výhodou navigácie je to, že pre človeka znamená v určitom smere príjemný
+zážitok.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Navigácia je aj poučná. Niekedy napríklad nechceme ísť po obyčajnej nám známej
+trase, ale skôr po zaujímavejšej.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Typy navigácií:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Navigácia, ktorej prioritou je nájdenie cesty do cieľa.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Navigácia, ktorej prioritou je spoznávanie okolia. Človek chce stále vedieť kde sa
+nachádza, nechce sa cítiť stratený. Nemá však striktne určený cieľ. Skôr ho zaujíma
+cesta samotná.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Identifikácia objektov v priestore. Viac než cesta samotná zaujíma človeka
+orientácia v priestore na danom mieste, konkrétne rozpoznávanie objektov okolo.
+Objekty môžu predstavovať napríklad okolité budovy.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;SOCIÁLNA NAVIGÁCIA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tento pojem vytvorili Dourish a Chalmers v roku 1994, ktorý sa vzťahuje na situácie,
+v ktorých je človek v priestore riadený činnosťami iných v tomto priestore.&lt;/p&gt;
+</description>
+        <pubDate>2015-04-10 18:05:00 +0200</pubDate>
+        <link>http://yourdomain.com/hlavna/navigacia/2015/04/10/navigacia.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/hlavna/navigacia/2015/04/10/navigacia.html</guid>
+        
+        
+        <category>hlavna</category>
+        
+        <category>navigacia</category>
+        
+      </item>
+    
+      <item>
+        <title>Detekcia výtlkov</title>
+        <description>
+&lt;pre&gt;&lt;code&gt;Senzory v mobilnom zariadení
+
+Detekcia výtlkov
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Našou úlohou je implementácia novej funkcionality do navigácie, ktorá bude počas jazdy
+sledovať, či nastal stret automobilu s výtlkom. Pokiaľ áno, mal by sa tento výtlk zobraziť
+od tohto momentu na mape nielen vodičovi, ktorý naň narazil, ale ktorémukoľvek
+používateľovi našej aplikácie. Výtlk sa zobrazí na mape ako varovný signál pre ostatných.
+Využitím takéhoto sociálneho prvku v navigácií sa naša navigácia stáva sociálnou. Vodiči
+sa tak nepriamo a nevedomky stávajú súčasťou kolaborujúcej skupiny, ktorá obohacuje
+obyčajnú navigáciu o možnosť predchádzania zbytočným nárazom. Jazda je tak pre
+cestujúcich pohodlnejšia.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EXISTUJÚCE RIEŠENIE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;V americkom meste Boston vznikla myšlienka, ako využiť technológie na zlepšenie
+pozemných komunikácií. Správa mesta ponúka občanom mobilnú aplikáciu s názvom
+Street Bump 26 , ktorá dokáže pomocou akcelerometra detegovať výtlky a iné nerovnosti na
+vozovke. Túto aplikáciu poskytuje mesto Boston občanom zadarmo.&lt;/p&gt;
+
+&lt;p&gt;Stačí, ak ju používateľ zapne pri jazde po meste a ona sama vysiela informácie
+o existujúcich výtlkoch na server. Jej nevýhodou je, že nedokáže „bežať“ na pozadí, preto
+ak chce napríklad používateľ volať, musí aplikáciu najskôr zastaviť a potom opätovne
+spustiť.&lt;/p&gt;
+
+&lt;p&gt;Ak je na jednom mieste detegovaný výtlk viac ako trikrát, mesto tento výtlk skontroluje
+a zaradí ho na zoznam cestných opráv.&lt;/p&gt;
+
+&lt;p&gt;Táto aplikácia samozrejme nefunguje vždy. Môže sa stať, že aplikácia zaznamená výtlk, aj
+keď reálne žiaden neexistuje. Takisto sa môže stať, že používateľ narazí na výtlk, ale
+aplikácia tento pohyb nevyhodnotí ako výtlk. Takýto prípad môže nastať hlavne v prípade,
+ak sa automobil pohybuje malou rýchlosťou.&lt;/p&gt;
+
+&lt;p&gt;Akcelerometre na zariadeniach so systémom Android sa veľmi líšia, pokiaľ ide o presnosť.
+Pri vývoji tejto aplikácia je snaha normalizovať akcelerometre rozdielnych zariadení.
+[Nigel Jacob, hovorca mesta Boston]&lt;/p&gt;
+
+&lt;p&gt;Aplikáciu programátori vyvinuli tak, aby bola dostatočne citlivá na detegovanie aj menších
+nerovností, ktoré by sa časom mohli stať obrovskými jamami v zemi.&lt;/p&gt;
+
+&lt;p&gt;Pre podobnú aplikáciu, ktorá sa bude používať na slovenských cestách, by bolo vhodné
+použiť menšiu citlivosť.&lt;/p&gt;
+</description>
+        <pubDate>2015-04-10 18:05:00 +0200</pubDate>
+        <link>http://yourdomain.com/hlavna/detekcia/2015/04/10/detekcia-vytlkov.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/hlavna/detekcia/2015/04/10/detekcia-vytlkov.html</guid>
+        
+        
+        <category>hlavna</category>
+        
+        <category>detekcia</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;def print_hi(name)
+  puts &amp;quot;Hi, #{name}&amp;quot;
+end
+print_hi('Tom')
+#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>2015-03-19 18:45:04 +0100</pubDate>
+        <link>http://yourdomain.com/jekyll/2015/03/19/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/2015/03/19/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+  </channel>
+</rss>

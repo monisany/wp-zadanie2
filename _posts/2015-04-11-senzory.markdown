@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Senzory v mobilnom zariadení"
+short-title:  "Senzory v mobilnom zariadení"
 date:   2015-04-10 16:05:00
 categories: detekcia
 ---
@@ -19,6 +20,7 @@ senzor akcelerácie (akcelerometer) a senzor orientácie.
 Každý senzor vysiela určitý typ dát. Tie sú prístupne vďaka implementovaným metódam
 na prácu so senzormi v Android sensor framework.
 
+{:.alert .alert-info}
 **Súradnicový systém mobilného zariadenia**
 
 Pre správne využitie senzorov v zariadení je dôležité pochopiť ako funguje súradnicový
@@ -26,3 +28,17 @@ systém. Zariadenie má tri osi (X,Y,Z) ako je znázornené na obrázku.
 
 <img src="/images/xyz.jpg" class="img-my" alt="Súradnicový systém">
 
+Tieto osi sa vzhľadom na zariadenie pri zmene polohy zariadenia nemenia. Tento
+súradnicový systém je vždy nastavený podľa toho, aká je základná poloha zariadenia.
+
+Napríklad niektoré tablety majú základnú polohu na šírku (landscape). V takom prípade
+vyzerá súradnicový systém tak, ako je znázornené na obrázku nižšie.
+
+<img src="/images/xyz_tablet.jpg" class="img-my" alt="Súradnicový systém pre tablet">
+
+{:.alert .alert-info}
+**Pohybové senzory**
+
+Poznáme dva hardvérové senzory (akcelerometer a gyroskop) a tri softvérové senzory
+(senzor gravitácie, senzor lineárneho zrýchlenia a senzor rotácie) 30 . Tieto senzory slúžia na
+monitorovanie pohybu mobilného zariadenia a každý z nich vyhodnocuje určitý typ dát.
